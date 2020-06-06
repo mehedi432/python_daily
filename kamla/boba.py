@@ -27,16 +27,16 @@ def date():
 def greetings():
     hour = datetime.datetime.now().hour
     if hour >= 6 and hour <= 12:
-        speak("I think you are having a beautiful morning sir!")
+        speak("Hiramon, I think you are having a beautiful morning!")
     elif hour >= 12 and hour <= 18:
-        speak("I think you are having a beautiful evening sir!")
+        speak("Hiramon, I think you are having a beautiful evening!")
     elif hour >= 18 and hour <= 24:
-        speak("I think you are having beautiful night sir!")
+        speak("Hiramon, I think you are having beautiful night!")
     speak("The time is")
     time()
     speak("And date is")
     date()
-    speak("Sir, i am at your service. So, tell me how can i help you?")
+    speak("Hiramon, i am at your service. So, tell me how can i help you?")
 
 
 if __name__ == "__main__":
